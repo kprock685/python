@@ -6,7 +6,11 @@ def mul(x,y):
     return x*y
 def div(x,y):
     return x/y
-print("option 1,2,3,4")
+print("option")
+print("Add")
+print("Sub")
+print("Mul")
+print("Div")
 a1 = float(input("a1 "))
 a2 = float(input("a2 "))
 while 1:
