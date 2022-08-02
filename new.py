@@ -6,7 +6,12 @@ def mul(x,y):
     return x*y
 def div(x,y):
     return x/y
-print("option 1,2,3,4")
+print("options")
+print("1 addition")
+print("2 subtraction")
+print("3 multiplication")
+print("4 division")
+print("press any other key for exit")
 n1 = float(input("n1 "))
 n2 = float(input("n2 "))
 while 1:
@@ -21,4 +26,4 @@ while 1:
         elif ch=='4':
             print(div(n1,n2));
         else:
-            print("Error");
+            break
