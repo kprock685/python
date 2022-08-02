@@ -12,8 +12,8 @@ print("2 subtraction")
 print("3 multiplication")
 print("4 division")
 print("press any other key for exit")
-n1 = float(input("n1 "))
-n2 = float(input("n2 "))
+n1 = float(input("Enter a frist number "))
+n2 = float(input("Enter a second number "))
 while 1:
     ch= input("Choice:")
     if ch in ('1','2','3','4'):
