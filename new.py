@@ -7,18 +7,19 @@ def mul(x,y):
 def div(x,y):
     return x/y
 print("option 1,2,3,4")
-n1 = float(input("n1 "))
-n2 = float(input("n2 "))
+a1 = float(input("a1 "))
+a2 = float(input("a2 "))
 while 1:
     ch= input("Choice:")
     if ch in ('1','2','3','4'):
         if ch =='1':
-            print(add(n1,n2));
+            print(add(a1,a2));
         elif ch=='2':
-            print(sub(n1,n2));
+            print(sub(a1,a2));
         elif ch=='3':
-            print(mul(n1,n2));
+            print(mul(a1,a2));
         elif ch=='4':
-            print(div(n1,n2));
+            print(div(a1,a2));
+            print();
         else:
             print("Error");
