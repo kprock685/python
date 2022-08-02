@@ -6,9 +6,9 @@ def mul(x,y):
     return x*y
 def div(x,y):
     return x/y
-print("option 1,2,3,4")
-a1 = float(input("a1 "))
-a2 = float(input("a2 "))
+    print("option 1,2,3,4")
+    a1 = float(input("a1 "))
+    a2 = float(input("a2 "))
 while 1:
     ch= input("Choice:")
     if ch in ('1','2','3','4'):
