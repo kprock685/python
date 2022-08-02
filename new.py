@@ -7,10 +7,10 @@ def mul(x,y):
 def div(x,y):
     return x/y
 print("options")
-print("1 addition")
-print("2 subtraction")
-print("3 multiplication")
-print("4 division")
+print("1 add")
+print("2 sub")
+print("3 multiply")
+print("4 divide")
 print("press any other key for exit")
 n1 = float(input("Enter a frist number "))
 n2 = float(input("Enter a second number "))
